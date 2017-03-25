@@ -1,0 +1,24 @@
+{
+  "name": "nickfairchild/themosis-mail",
+  "description": "Mail package for Themosis.",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Nick Fairchild",
+      "email": "nick.fairchild@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.0",
+    "illuminate/mail": "^5.4"
+  },
+  "autoload" : {
+    "psr-4": {
+      "NickFairchild\\Mail\\": ""
+    }
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "minimum-stability": "dev"
+}
